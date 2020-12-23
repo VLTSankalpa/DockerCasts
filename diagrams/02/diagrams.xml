@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T17:04:24.984Z" agent="5.0 (Windows)" version="14.1.2" etag="ne1_YBwNNYX7tqkxukHG" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-12-23T17:04:37.215Z" agent="5.0 (Windows)" version="14.1.2" etag="zPqD9L02l2VkSUs62S3f" type="github" pages="21">
   <diagram id="62156dfb-df6b-21d9-d0d2-4f2d729d4066" name="01 - run">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -458,9 +458,6 @@
         </mxCell>
         <mxCell id="18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="750" y="410" width="20" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="A-udZuMi5Tw1OVVCxjXg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="A-udZuMi5Tw1OVVCxjXg-22">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="19" value="Reference the Docker Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="595" y="580" width="90" height="30" as="geometry" />
