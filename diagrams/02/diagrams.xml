@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T19:01:14.345Z" agent="5.0 (Windows)" version="14.1.2" etag="GwdDClpDE748z_X0hDRF" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-12-23T19:08:33.925Z" agent="5.0 (Windows)" version="14.1.2" etag="gSLBqEm-Jaog7SyOCgRd" type="github" pages="21">
   <diagram id="62156dfb-df6b-21d9-d0d2-4f2d729d4066" name="01 - run">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1383,7 +1383,10 @@
           <mxGeometry x="1050" y="500" width="20" height="200" as="geometry" />
         </mxCell>
         <mxCell id="L0SXrUdsyKnk6ojfGC3S-24" value="&lt;div&gt;get full terminal access to the inside container context&lt;/div&gt;&lt;div&gt;We can run most of linux commands here&lt;/div&gt;&lt;div&gt;IF we cant getout from any container shell use CTRL+D&lt;/div&gt;&lt;div&gt;Consider this &lt;b&gt;sh &lt;/b&gt;as a programe that allow us to run commands in container&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="954.5" y="650" width="245" height="30" as="geometry" />
+          <mxGeometry x="954.5" y="663" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0SXrUdsyKnk6ojfGC3S-25" value="some docker container has bash shell" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
