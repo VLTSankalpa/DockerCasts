@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T16:53:30.971Z" agent="5.0 (Windows)" version="14.1.2" etag="MJFX5-9a_O6KqaqEtz9e" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-12-23T16:59:37.554Z" agent="5.0 (Windows)" version="14.1.2" etag="fKGVHSwLIcZJf-hzfo2s" type="github" pages="21">
   <diagram id="62156dfb-df6b-21d9-d0d2-4f2d729d4066" name="01 - run">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -681,39 +681,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1a91e83a-7b30-5167-d213-c7fd66ade7db" name="12 - logs">
-    <mxGraphModel dx="932" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Get logs from a container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2" value="Get logs from a container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="170" y="130" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="docker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="3" value="docker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="330" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="logs" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="4" value="logs" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="450" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="&amp;lt;container id&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="5" value="&amp;lt;container id&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="570" y="300" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="380" y="320" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="660" y="280" width="20" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=90;" vertex="1" parent="1">
+        <mxCell id="8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="500" y="220" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Reference the Docker Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9" value="Reference the Docker Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="345" y="390" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Get Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="10" value="Get Logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="465" y="230" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="ID of the container to look at" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="11" value="ID of the container to look at" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="603.5" y="391" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TdXWLWhS9c_g0iAI9gAE-11" value="docker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="501" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TdXWLWhS9c_g0iAI9gAE-12" value="system" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="501" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TdXWLWhS9c_g0iAI9gAE-13" value="prune" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="501" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TdXWLWhS9c_g0iAI9gAE-18" value="Delete stopped docker containers and clear docker cache. So next time we have to download them again." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" y="580" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
