@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T17:08:25.429Z" agent="5.0 (Windows)" version="14.1.2" etag="3-8ILfqHSLCc6g5wVXpD" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-12-23T17:10:05.170Z" agent="5.0 (Windows)" version="14.1.2" etag="f5SzNWct0UxqdCt414dF" type="github" pages="21">
   <diagram id="62156dfb-df6b-21d9-d0d2-4f2d729d4066" name="01 - run">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -733,8 +733,8 @@
         <mxCell id="TdXWLWhS9c_g0iAI9gAE-18" value="Delete stopped docker containers and clear docker cache. So next time we have to download them again." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="310" y="580" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YyJvaa3rjz5MaJPVO-WE-11" value="In here we dont run docker again. Only getting all the log output from docker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="310" y="440" width="490" height="30" as="geometry" />
+        <mxCell id="YyJvaa3rjz5MaJPVO-WE-11" value="In here we dont run docker again. Only getting all the log output from docker. Good way to inspect a docker for debugging and t-shooting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="610" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
