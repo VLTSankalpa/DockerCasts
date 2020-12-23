@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T17:27:25.836Z" agent="5.0 (Windows)" version="14.1.2" etag="U3KawI1LsJqxFpd96eV0" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2020-12-23T17:37:22.274Z" agent="5.0 (Windows)" version="14.1.2" etag="ViL8tOoNFMDdAbQE_KmL" type="github" pages="21">
   <diagram id="62156dfb-df6b-21d9-d0d2-4f2d729d4066" name="01 - run">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -865,6 +865,9 @@
         <mxCell id="37" value="SIGTERM" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=24;align=center;fontStyle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="670" y="163" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_7tbLBjm-M485lYhpFSn-39" value="&lt;div&gt;Try to do some clean up before stop&lt;/div&gt;&lt;div&gt;If container didnot stop for docker stop command after 10 second docker will automatically isses docker kill command&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="390" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -961,6 +964,9 @@
         </mxCell>
         <mxCell id="27" value="SIGKILL" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=24;align=center;fontStyle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="670" y="163" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCAYJZVs6NIYZr1ycKGS-27" value="Stop right now. no clean up. If container doesn&#39;t responding use this" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="390" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
