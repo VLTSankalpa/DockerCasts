@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T18:20:06.517Z" agent="5.0 (Windows)" version="14.1.2" etag="i7XiZYsgoTTuPcXZBO6X" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-12-24T19:04:30.348Z" agent="5.0 (Windows)" version="14.1.2" etag="YiugVcXxGaxuq_pAMZ3C" type="github" pages="13">
   <diagram id="e093c3a3-07e3-3ea9-9c36-e4d661098359" name="01 - app">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -696,6 +696,9 @@
         </mxCell>
         <mxCell id="pga8LUm8tOdL_IY7TL-T-7" value="&lt;ol style=&quot;font-size: 18px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Best practice to set working directory in &lt;b&gt;Dockerfile&lt;/b&gt; without coping files directly to docker file sysytem root from our hard disk&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;reason when copying files to container root file system some of the files and folders in the there by default can be override with copying files.&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="289" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pga8LUm8tOdL_IY7TL-T-9" value="&lt;div align=&quot;left&quot;&gt;When ever we change line in the &lt;b&gt;Dockerfile &lt;/b&gt;that change will nt be immediatly reflect in the running container &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;So we have to rebuild the container but when we rebuilding container file all the lines below the changed line cant use the cache and they will rebuild&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="430" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
