@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T03:29:05.467Z" agent="5.0 (Windows)" version="14.1.2" etag="bmayWIbjluw2XNp-XGdZ" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-12-24T03:31:40.732Z" agent="5.0 (Windows)" version="14.1.2" etag="IAwemunwEVxyhK8eaE2U" type="github" pages="16">
   <diagram id="2b2712a2-3ee6-4d91-64b4-8b3dc291bef4" name="01 - images">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="186629c1-89e8-6038-09bf-3c3fdd6e5652" name="03 - base">
-    <mxGraphModel dx="699" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,14 +135,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4028f699-715d-b2a0-1dd0-6df0a805462b" name="07 - goal">
-    <mxGraphModel dx="932" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Create an image that runs redis-server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="2" value="Create an image that runs redis-server" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="550" y="240" width="400" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Goal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="3" value="Goal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="700" y="350" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
