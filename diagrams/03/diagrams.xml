@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T14:11:37.247Z" agent="5.0 (Windows)" version="14.1.2" etag="tQbJDjCQ3N7HptCAXeuq" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-12-24T15:21:42.287Z" agent="5.0 (Windows)" version="14.1.2" etag="EY7gXKytmq6KnLXmWEg4" type="github" pages="16">
   <diagram id="2b2712a2-3ee6-4d91-64b4-8b3dc291bef4" name="01 - images">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -800,7 +800,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ce486ed6-8709-11a8-74ad-4cccd052397a" name="12 - process">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1230,39 +1230,42 @@
         <mxCell id="99" value="gcc" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="930" y="639.5" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KcvW27vwFP8bYzs4ZsYl-99" value="&lt;div align=&quot;left&quot;&gt;Even if we change the order of &lt;b&gt;RUN &lt;/b&gt;commands in the dockerfile docker server can&#39;t use cache and have to go thorught the process again&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="669.5" width="280" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="a5d8c784-963d-cf4f-9d55-100631a467cc" name="14 - tag">
-    <mxGraphModel dx="932" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Tagging an Image" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2" value="Tagging an Image" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="160" y="168" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="docker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="3" value="docker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="build" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="4" value="build" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="-t stephengrider/redis:latest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="5" value="-t stephengrider/redis:latest" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="490" y="300" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="835" y="305" width="20" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Specifies the directory of files/folders to use for the build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="11" value="Specifies the directory of files/folders to use for the build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="756.5" y="400" width="177" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="." style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="12" value="." style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="770" y="300" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=90;" vertex="1" parent="1">
+        <mxCell id="13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=20;align=center;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="620" y="140" width="20" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Tags the image" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="14" value="Tags the image" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="572.5" y="233" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
