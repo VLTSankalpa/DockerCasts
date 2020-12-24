@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T17:21:00.661Z" agent="5.0 (Windows)" version="14.1.2" etag="7Sw68nf2VOKD1hD0PNHk" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-12-24T17:26:00.007Z" agent="5.0 (Windows)" version="14.1.2" etag="hlhEhIyqlVwfimfieZ1u" type="github" pages="13">
   <diagram id="e093c3a3-07e3-3ea9-9c36-e4d661098359" name="01 - app">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -399,7 +399,7 @@
         <mxCell id="60" value="proc" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="892" y="466" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EGfX3WBw_QfB7uY17LY3-61" value="Need to copy package.json file from hard dive to the docker file system" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" vertex="1" parent="1">
+        <mxCell id="EGfX3WBw_QfB7uY17LY3-61" value="&lt;div&gt;Need to copy package.json file from hard drive to the docker file system&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="942" y="560" width="178" height="20" as="geometry" />
         </mxCell>
       </root>
