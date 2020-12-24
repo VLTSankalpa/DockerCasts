@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T17:26:00.007Z" agent="5.0 (Windows)" version="14.1.2" etag="hlhEhIyqlVwfimfieZ1u" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-12-24T17:27:34.146Z" agent="5.0 (Windows)" version="14.1.2" etag="nC3SuNoPaU4nEtAC1GX3" type="github" pages="13">
   <diagram id="e093c3a3-07e3-3ea9-9c36-e4d661098359" name="01 - app">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -475,8 +475,8 @@
         <mxCell id="6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;fontSize=24;align=center;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="730" y="180" width="20" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Path to folder to copy from on *your machine* relative to build context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="490" y="410" width="220" height="20" as="geometry" />
+        <mxCell id="7" value="&lt;div&gt;Path to folder to copy from on *your machine* relative to build context&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;./ mean the current working directory&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="490" y="460" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8" value="Place to copy stuff to inside *the container*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="630" y="180" width="220" height="20" as="geometry" />
