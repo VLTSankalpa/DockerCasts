@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T15:33:21.427Z" agent="5.0 (Windows)" version="14.1.2" etag="86Cr3V6M9qhBwtUPL85c" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-12-24T15:56:35.687Z" agent="5.0 (Windows)" version="14.1.2" etag="pBEX8RlX5VCJkYYECAAh" type="github" pages="16">
   <diagram id="2b2712a2-3ee6-4d91-64b4-8b3dc291bef4" name="01 - images">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1322,30 +1322,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d89ab755-0ec9-1d98-d797-ea51506399cd" name="16 - commit">
-    <mxGraphModel dx="699" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.75;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" edge="1" parent="1" source="2" target="4">
+        <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.75;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="2" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="Image" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="2" value="Image" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="490" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" edge="1" parent="1" source="3" target="7">
+        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" parent="1" source="3" target="7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="3" value="Container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="680" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="4" value="Container" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="680" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Image" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+        <mxCell id="7" value="Image" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="850" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jys9Wj--FvB4t4w881Km-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 29px&quot;&gt;Manual image generation with Docker commit&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="670" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jys9Wj--FvB4t4w881Km-10" value="&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;we can use -&lt;b&gt;it&lt;/b&gt; and &lt;b&gt;sh&lt;/b&gt; to create container from alpine base image and modify its file system using shell commands.&lt;/li&gt;&lt;li&gt;After that we can set defualt command on startup for that container using &lt;b&gt;docker commit &lt;/b&gt;command&lt;/li&gt;&lt;li&gt;When ever we use docker hash or docker ids we dont have to use all the charaters only some of leading charaters will be enough docker to idenity it as unique container&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jys9Wj--FvB4t4w881Km-11" value="&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;b&gt;Docker run -it alpine sh&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;b&gt;docker commit -c &#39;CMD[&quot;redis-server&quot;]&#39;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="899" y="490" width="400" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
