@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T07:00:45.958Z" agent="5.0 (Windows)" version="14.1.2" etag="rcyIhArc7g300_NXoMFS" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-25T07:06:01.320Z" agent="5.0 (Windows)" version="14.1.2" etag="K8YeYKYb82mh5Y7oIhya" type="github" pages="4">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Multiple container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
         <mxCell id="abkEngyStyLU0fY3qtzH-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
           <mxGeometry x="330" y="280" width="540" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="abkEngyStyLU0fY3qtzH-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;dis-server&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeWidth=3;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
+        <mxCell id="abkEngyStyLU0fY3qtzH-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;redis-server&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeWidth=3;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
           <mxGeometry x="450" y="280" width="420" height="70" as="geometry" />
         </mxCell>
         <mxCell id="abkEngyStyLU0fY3qtzH-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;node-app&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeWidth=3;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
