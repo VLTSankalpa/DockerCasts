@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T18:04:33.354Z" agent="5.0 (Windows)" version="14.1.2" etag="PE852Bj80h-m1MpBL9r1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-25T19:17:21.772Z" agent="5.0 (Windows)" version="14.1.2" etag="HXfDpepWCZN3u93mN1Q5" type="github" pages="4">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -50,6 +50,17 @@
         <mxCell id="s2VODe9Y2MAoLyxh-B-q-1" parent="s2VODe9Y2MAoLyxh-B-q-0" />
         <mxCell id="99UytL2irt7AnMR2uYZA-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;docker build -f &amp;lt;custom-image-name&amp;gt; .&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s2VODe9Y2MAoLyxh-B-q-1">
           <mxGeometry x="240" y="390" width="820" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ExE2NS0d1PWx8lRkReii" name="07 - Docker volumes">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-0" />
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-1" parent="4Mk4iQXiwL4zJRKQcYk9-0" />
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Docker volumes can be use to automatically propated changes done to our source code to Container without rebuilding it&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="190" y="170" width="650" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
