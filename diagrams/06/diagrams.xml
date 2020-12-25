@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T17:54:15.230Z" agent="5.0 (Windows)" version="14.1.2" etag="GihBct8JrWbbWAxutLt5" type="github" pages="3">
-  <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="diagrams-01 - development workflow">
+<mxfile host="app.diagrams.net" modified="2020-12-25T18:03:47.899Z" agent="5.0 (Windows)" version="14.1.2" etag="WdYE6Tzp1-j1Cby1a748" type="github" pages="3">
+  <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -32,7 +32,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="H-EY2dy2BXhIEUFkofm6" name="diagrams-04 - purpose of docker">
+  <diagram id="H-EY2dy2BXhIEUFkofm6" name="04 - purpose of docker">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="oKYIgfy-PkrbXWT6BN-5-0" />
@@ -43,7 +43,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="m1zijWA4fJGxPA5izInt" name="diagrams-05 - build image from docker file with custom name">
+  <diagram id="m1zijWA4fJGxPA5izInt" name="05 - build image from docker file with custom name">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="s2VODe9Y2MAoLyxh-B-q-0" />
