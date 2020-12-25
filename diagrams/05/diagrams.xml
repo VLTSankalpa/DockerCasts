@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T07:06:01.320Z" agent="5.0 (Windows)" version="14.1.2" etag="K8YeYKYb82mh5Y7oIhya" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-25T11:18:57.741Z" agent="5.0 (Windows)" version="14.1.2" etag="QAwcVjEFhfHegkkOX38F" type="github" pages="4">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Multiple container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -120,6 +120,9 @@
         </mxCell>
         <mxCell id="abkEngyStyLU0fY3qtzH-6" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Map port 8081 to 8081&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
           <mxGeometry x="540" y="560" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="knrVFTPoOo0bUmwzkSCY-0" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;In &lt;b&gt;docker-compose.yml&lt;/b&gt; file we dont need to define any type of port mapping to enable communcation in between mulitple containers&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;In there only port mapping we need to define is port mapping in between our local machine and container&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
+          <mxGeometry x="330" y="690" width="510" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
