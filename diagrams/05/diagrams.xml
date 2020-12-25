@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T13:05:48.924Z" agent="5.0 (Windows)" version="14.1.2" etag="ZbrSvekG4ctOu1BiUJYt" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-25T13:11:11.807Z" agent="5.0 (Windows)" version="14.1.2" etag="_okh0OWDSFiPrys5CFYP" type="github" pages="6">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Multiple container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -164,6 +164,21 @@
         </mxCell>
         <mxCell id="D3JfYQl2LLua2g7LmCzF-10" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker-compose down&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
           <mxGeometry x="710" y="610" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3Aols-0qyMbGNJTBRfm-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=7;" edge="1" parent="D3JfYQl2LLua2g7LmCzF-1" source="d3Aols-0qyMbGNJTBRfm-1" target="d3Aols-0qyMbGNJTBRfm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3Aols-0qyMbGNJTBRfm-1" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker ps&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="280" y="720" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3Aols-0qyMbGNJTBRfm-2" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker-compose ps&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="710" y="720" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d3Aols-0qyMbGNJTBRfm-3" value="Works when run in any directory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="390" y="810" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d3Aols-0qyMbGNJTBRfm-4" value="Works only when run in the directory that contain &lt;b&gt;docker-compose.yml&lt;/b&gt; file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="740" y="800" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
