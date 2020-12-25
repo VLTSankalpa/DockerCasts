@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T06:25:44.605Z" agent="5.0 (Windows)" version="14.1.2" etag="ikb0c8mfwCnG0e5xFD7R" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-25T06:27:04.160Z" agent="5.0 (Windows)" version="14.1.2" etag="grS_YelBIOwn4u2IplDW" type="github" pages="2">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Multiple container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kGn2OwOtbyHVLRjE8vBN-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kGn2OwOtbyHVLRjE8vBN-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="160" y="230" width="540" height="250" as="geometry" />
         </mxCell>
         <mxCell id="kGn2OwOtbyHVLRjE8vBN-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="220" y="310" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="kGn2OwOtbyHVLRjE8vBN-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kGn2OwOtbyHVLRjE8vBN-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kGn2OwOtbyHVLRjE8vBN-30" value="Node App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -22,7 +22,7 @@
         <mxCell id="kGn2OwOtbyHVLRjE8vBN-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="470" y="310" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="kGn2OwOtbyHVLRjE8vBN-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kGn2OwOtbyHVLRjE8vBN-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="490" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kGn2OwOtbyHVLRjE8vBN-34" value="Redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
