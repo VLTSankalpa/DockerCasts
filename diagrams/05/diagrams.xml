@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T06:12:15.684Z" agent="5.0 (Windows)" version="14.1.2" etag="HTxqwkc5igcwpLYrFCOT" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-25T06:22:20.090Z" agent="5.0 (Windows)" version="14.1.2" etag="P9e2P9j7_qkFvMdmbhol" type="github" pages="2">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Two container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eXs-yOekD1uABPKKrqwg" name="Page-2">
+  <diagram id="eXs-yOekD1uABPKKrqwg" name="02 - Docker compose">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="h26ndN5BDMhekdjOPxu4-0" />
@@ -54,8 +54,14 @@
         <mxCell id="h26ndN5BDMhekdjOPxu4-2" value="&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;Docker Compose&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="h26ndN5BDMhekdjOPxu4-1">
           <mxGeometry x="260" y="260" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h26ndN5BDMhekdjOPxu4-3" value="Separte CLI that gets installed along with Docker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h26ndN5BDMhekdjOPxu4-1">
+        <mxCell id="h26ndN5BDMhekdjOPxu4-3" value="Separeate CLI that gets installed along with Docker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h26ndN5BDMhekdjOPxu4-1">
           <mxGeometry x="240" y="310" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h26ndN5BDMhekdjOPxu4-4" value="Used to start up mulitple Docker containers at the same time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h26ndN5BDMhekdjOPxu4-1">
+          <mxGeometry x="240" y="380" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h26ndN5BDMhekdjOPxu4-5" value="Automate some of the long-winded argments we were passing to &lt;b&gt;&quot;docker run&quot;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h26ndN5BDMhekdjOPxu4-1">
+          <mxGeometry x="240" y="450" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
