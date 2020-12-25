@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T16:42:49.926Z" agent="5.0 (Windows)" version="14.1.2" etag="HGddJ-VeQiYTVRSHqJE_" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T17:01:14.433Z" agent="5.0 (Windows)" version="14.1.2" etag="UvGuiDl9HBrSV_etDtu3" type="github" pages="2">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="diagrams-01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -29,7 +29,15 @@
         <mxCell id="Uj-Th6nNU9Crf_3WAdtU-3" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Deployment&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
           <mxGeometry x="120" y="430" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Uj-Th6nNU9Crf_3WAdtU-15" value="&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;It is important to understand the relationship between production grade devops workflow and docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;Its possible to have a devops workflow without using docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;But using docker as a tool in this workflow we can make some of task log easier&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H-EY2dy2BXhIEUFkofm6" name="diagrams-04 - purpose of docker">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="oKYIgfy-PkrbXWT6BN-5-0" />
+        <mxCell id="oKYIgfy-PkrbXWT6BN-5-1" parent="oKYIgfy-PkrbXWT6BN-5-0" />
+        <mxCell id="oKYIgfy-PkrbXWT6BN-5-2" value="&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;It is important to understand the relationship between production grade devops workflow and docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;Its possible to have a devops workflow without using docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;But using docker as a tool in this workflow we can make some of task log easier&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oKYIgfy-PkrbXWT6BN-5-1">
           <mxGeometry x="480" y="350" width="580" height="20" as="geometry" />
         </mxCell>
       </root>
