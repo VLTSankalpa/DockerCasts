@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T19:17:21.772Z" agent="5.0 (Windows)" version="14.1.2" etag="HXfDpepWCZN3u93mN1Q5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-25T19:47:10.828Z" agent="5.0 (Windows)" version="14.1.2" etag="ts7kQSou67kufazp335B" type="github" pages="4">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -55,12 +55,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExE2NS0d1PWx8lRkReii" name="07 - Docker volumes">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="5472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="4Mk4iQXiwL4zJRKQcYk9-0" />
         <mxCell id="4Mk4iQXiwL4zJRKQcYk9-1" parent="4Mk4iQXiwL4zJRKQcYk9-0" />
-        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Docker volumes can be use to automatically propated changes done to our source code to Container without rebuilding it&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Docker volumes can be use to automatically propated changes done to our source code to Container without rebuilding it&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Docker volume kinda similer to port mapping where reference created on container file sysytem the way container can access local directory file system.&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Setting up docker volume is bit user unfriendly due to long docker comman.&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;pwd &lt;/b&gt;only work with linux or git bash not working with powershell&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
           <mxGeometry x="190" y="170" width="650" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-0" value="&lt;font style=&quot;font-size: 22px&quot;&gt;docker run -p 3000:3000&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="230" y="490" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-1" value="&lt;font style=&quot;font-size: 22px&quot;&gt;-v /app/node_modules&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="490" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-2" value="&lt;font style=&quot;font-size: 22px&quot;&gt;-v $(pwd):/app&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="770" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-3" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&amp;lt;image-id&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="1050" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-4" value="Map the current working directory (pwd) to the &lt;b&gt;&#39;/app&#39; &lt;/b&gt;folder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="800" y="450" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
