@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T11:18:57.741Z" agent="5.0 (Windows)" version="14.1.2" etag="QAwcVjEFhfHegkkOX38F" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-25T11:33:21.124Z" agent="5.0 (Windows)" version="14.1.2" etag="m07yd0G-VzNAlhxTb105" type="github" pages="5">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Multiple container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -123,6 +123,38 @@
         </mxCell>
         <mxCell id="knrVFTPoOo0bUmwzkSCY-0" value="&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;In &lt;b&gt;docker-compose.yml&lt;/b&gt; file we dont need to define any type of port mapping to enable communcation in between mulitple containers&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;In there only port mapping we need to define is port mapping in between our local machine and container&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A5qW5kCooNzelU_pFc3m-1">
           <mxGeometry x="330" y="690" width="510" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xce9S23_KwbqBHb84vwH" name="05 - dcoker compose commands">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-0" />
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-1" parent="D3JfYQl2LLua2g7LmCzF-0" />
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=7;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="D3JfYQl2LLua2g7LmCzF-1" source="D3JfYQl2LLua2g7LmCzF-2" target="D3JfYQl2LLua2g7LmCzF-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="290" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-2" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker run &amp;lt;conatiner name&amp;gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="280" y="260" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-3" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker build .&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="280" y="420" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-4" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker run &amp;lt;container name&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="280" y="490" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-5" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker-compose up --build&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="710" y="450" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-6" value="&lt;font style=&quot;font-size: 19px&quot;&gt;docker-compse up&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="710" y="260" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D3JfYQl2LLua2g7LmCzF-7" value="" style="strokeWidth=8;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" vertex="1" parent="D3JfYQl2LLua2g7LmCzF-1">
+          <mxGeometry x="620" y="430" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
