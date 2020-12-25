@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T13:11:11.807Z" agent="5.0 (Windows)" version="14.1.2" etag="_okh0OWDSFiPrys5CFYP" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-25T13:15:00.257Z" agent="5.0 (Windows)" version="14.1.2" etag="zGMfTe16vD2QpRs_toDo" type="github" pages="6">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - Multiple container">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -189,34 +189,34 @@
         <mxCell id="LPCYUNGEKF7bbLdXRMDm-0" />
         <mxCell id="LPCYUNGEKF7bbLdXRMDm-1" parent="LPCYUNGEKF7bbLdXRMDm-0" />
         <mxCell id="AYkDSpCxrgllUQYRUlGP-12" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="400" y="230" width="380" height="200" as="geometry" />
+          <mxGeometry x="400" y="150" width="380" height="200" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-13" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="400" y="230" width="90" height="200" as="geometry" />
+          <mxGeometry x="400" y="150" width="90" height="200" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-14" value="&quot;no&quot;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="400" y="230" width="90" height="50" as="geometry" />
+          <mxGeometry x="400" y="150" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-15" value="always" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="400" y="280" width="90" height="50" as="geometry" />
+          <mxGeometry x="400" y="200" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-16" value="on-failure" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="400" y="330" width="90" height="50" as="geometry" />
+          <mxGeometry x="400" y="250" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-17" value="unless-stopped" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="400" y="380" width="90" height="50" as="geometry" />
+          <mxGeometry x="400" y="300" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-18" value="Never attempt to restat this, if it stops or crashes" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="490" y="230" width="290" height="50" as="geometry" />
+          <mxGeometry x="490" y="150" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-19" value="If this container stops &quot;for any reason&quot; always attempt to restat it" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="490" y="280" width="290" height="50" as="geometry" />
+          <mxGeometry x="490" y="200" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-20" value="Only restart if the container stops with an error code" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="490" y="330" width="290" height="50" as="geometry" />
+          <mxGeometry x="490" y="250" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AYkDSpCxrgllUQYRUlGP-22" value="Always restart unless we forcibly stop it" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="LPCYUNGEKF7bbLdXRMDm-1">
-          <mxGeometry x="490" y="380" width="290" height="50" as="geometry" />
+          <mxGeometry x="490" y="300" width="290" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
