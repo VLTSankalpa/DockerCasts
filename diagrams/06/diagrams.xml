@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T17:01:14.433Z" agent="5.0 (Windows)" version="14.1.2" etag="UvGuiDl9HBrSV_etDtu3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-25T17:54:15.230Z" agent="5.0 (Windows)" version="14.1.2" etag="GihBct8JrWbbWAxutLt5" type="github" pages="3">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="diagrams-01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -39,6 +39,17 @@
         <mxCell id="oKYIgfy-PkrbXWT6BN-5-1" parent="oKYIgfy-PkrbXWT6BN-5-0" />
         <mxCell id="oKYIgfy-PkrbXWT6BN-5-2" value="&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;It is important to understand the relationship between production grade devops workflow and docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;Its possible to have a devops workflow without using docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;But using docker as a tool in this workflow we can make some of task log easier&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oKYIgfy-PkrbXWT6BN-5-1">
           <mxGeometry x="480" y="350" width="580" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="m1zijWA4fJGxPA5izInt" name="diagrams-05 - build image from docker file with custom name">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="s2VODe9Y2MAoLyxh-B-q-0" />
+        <mxCell id="s2VODe9Y2MAoLyxh-B-q-1" parent="s2VODe9Y2MAoLyxh-B-q-0" />
+        <mxCell id="99UytL2irt7AnMR2uYZA-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;docker build -f &amp;lt;custom-image-name&amp;gt; .&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s2VODe9Y2MAoLyxh-B-q-1">
+          <mxGeometry x="240" y="390" width="820" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
