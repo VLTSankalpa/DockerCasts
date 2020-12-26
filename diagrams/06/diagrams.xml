@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T13:07:50.372Z" agent="5.0 (Windows)" version="14.1.2" etag="tOz2WD8OniB32q6q7aUo" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-12-26T13:08:31.935Z" agent="5.0 (Windows)" version="14.1.2" etag="ysI5TCGhbC0FV4I2Vb7l" type="github" pages="5">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pVsU0367un2kb_rBwKp1-8" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;b&gt;3)&lt;/b&gt; Add 2nd service to docker-compose file for testing. This 2nd service totally identical to 1st one excepts the last line where default startup command &lt;b&gt;(npm run start) &lt;/b&gt;of Dockerfile.dev has override by &lt;b&gt;npm run test&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;spacingLeft=12;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
-          <mxGeometry x="360" y="1620" width="850" height="210" as="geometry" />
+          <mxGeometry x="367" y="1550" width="850" height="210" as="geometry" />
         </mxCell>
         <mxCell id="pVsU0367un2kb_rBwKp1-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 31px&quot;&gt;docker-compose.yml file&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;strokeWidth=4;align=center;fillColor=#e1d5e7;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
           <mxGeometry x="620" y="430" width="420" height="60" as="geometry" />
