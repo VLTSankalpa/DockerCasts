@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T13:09:39.692Z" agent="5.0 (Windows)" version="14.1.2" etag="ONz3VKYvBd90rzicpxVE" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-12-26T14:02:29.944Z" agent="5.0 (Windows)" version="14.1.2" etag="zZ1Yj1Qa9kbGzAQ9GHeA" type="github" pages="5">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -138,6 +138,9 @@
         </mxCell>
         <mxCell id="6QD2wbzr6DtGlZuRjRU3-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Service 2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Container&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontColor=#333333;fontStyle=1" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
           <mxGeometry x="250" y="1155" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6QD2wbzr6DtGlZuRjRU3-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Downside of 1) and 2) methods is we need to build image and then separatly need to run test command.&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Downside of 3) methods is we can&#39;t re-run test by clicking enter and we can&#39;t get the custom test like in method 1) and 2) by clicking shortcut key like q, p and w.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;spacingLeft=12;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="340" y="1850" width="850" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
