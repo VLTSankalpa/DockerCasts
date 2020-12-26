@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T19:47:10.828Z" agent="5.0 (Windows)" version="14.1.2" etag="ts7kQSou67kufazp335B" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-26T03:59:38.618Z" agent="5.0 (Windows)" version="14.1.2" etag="uIO-bnMJa7Au18Dz5bZ7" type="github" pages="4">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -76,6 +76,12 @@
         </mxCell>
         <mxCell id="MbRKAbbVOmDxa7u2_1Qx-4" value="Map the current working directory (pwd) to the &lt;b&gt;&#39;/app&#39; &lt;/b&gt;folder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
           <mxGeometry x="800" y="450" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-5" value="&lt;div&gt;Put a bookmark on the &lt;b&gt;node_modules &lt;/b&gt;folder inside the container&#39;s FS&lt;/div&gt;&lt;div&gt;(This one only need when we dont have &lt;b&gt;node_modules &lt;/b&gt;folder inside our working directory)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="490" y="580" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=7;" edge="1" parent="4Mk4iQXiwL4zJRKQcYk9-1" source="MbRKAbbVOmDxa7u2_1Qx-5" target="MbRKAbbVOmDxa7u2_1Qx-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
