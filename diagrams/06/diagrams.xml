@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T13:29:33.943Z" agent="5.0 (Windows)" version="14.1.2" etag="2SyxK7OthMmNzu31nlvP" type="github">
-  <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="diagrams-01 - development workflow">
+<mxfile host="app.diagrams.net" modified="2020-12-26T13:09:39.692Z" agent="5.0 (Windows)" version="14.1.2" etag="ONz3VKYvBd90rzicpxVE" type="github" pages="5">
+  <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -8,26 +8,136 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uj-Th6nNU9Crf_3WAdtU-1" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Development&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="380" y="230" width="260" height="60" as="geometry" />
+          <mxGeometry x="120" y="230" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uj-Th6nNU9Crf_3WAdtU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=7;" edge="1" parent="1" source="Uj-Th6nNU9Crf_3WAdtU-2" target="Uj-Th6nNU9Crf_3WAdtU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uj-Th6nNU9Crf_3WAdtU-2" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Testing&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="380" y="330" width="260" height="60" as="geometry" />
+          <mxGeometry x="120" y="330" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uj-Th6nNU9Crf_3WAdtU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=7;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uj-Th6nNU9Crf_3WAdtU-3" target="Uj-Th6nNU9Crf_3WAdtU-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="250" as="targetPoint" />
+            <mxPoint x="480" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="510" />
-              <mxPoint x="690" y="510" />
-              <mxPoint x="690" y="245" />
+              <mxPoint x="250" y="510" />
+              <mxPoint x="430" y="510" />
+              <mxPoint x="430" y="245" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Uj-Th6nNU9Crf_3WAdtU-3" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Deployment&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="380" y="430" width="260" height="60" as="geometry" />
+          <mxGeometry x="120" y="430" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H-EY2dy2BXhIEUFkofm6" name="04 - purpose of docker">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="oKYIgfy-PkrbXWT6BN-5-0" />
+        <mxCell id="oKYIgfy-PkrbXWT6BN-5-1" parent="oKYIgfy-PkrbXWT6BN-5-0" />
+        <mxCell id="oKYIgfy-PkrbXWT6BN-5-2" value="&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;It is important to understand the relationship between production grade devops workflow and docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;Its possible to have a devops workflow without using docker&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;But using docker as a tool in this workflow we can make some of task log easier&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oKYIgfy-PkrbXWT6BN-5-1">
+          <mxGeometry x="480" y="350" width="580" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="m1zijWA4fJGxPA5izInt" name="06 - build image from docker file with custom name">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="s2VODe9Y2MAoLyxh-B-q-0" />
+        <mxCell id="s2VODe9Y2MAoLyxh-B-q-1" parent="s2VODe9Y2MAoLyxh-B-q-0" />
+        <mxCell id="99UytL2irt7AnMR2uYZA-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;docker build -f &amp;lt;custom-image-name&amp;gt; .&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s2VODe9Y2MAoLyxh-B-q-1">
+          <mxGeometry x="240" y="390" width="820" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ExE2NS0d1PWx8lRkReii" name="07 - Docker volumes">
+    <mxGraphModel dx="1422" dy="5472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-0" />
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-1" parent="4Mk4iQXiwL4zJRKQcYk9-0" />
+        <mxCell id="4Mk4iQXiwL4zJRKQcYk9-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Docker volumes can be use to automatically propated changes done to our source code to Container without rebuilding it&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Docker volume kinda similer to port mapping where reference created on container file sysytem the way container can access local directory file system.&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Setting up docker volume is bit user unfriendly due to long docker command.&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;pwd &lt;/b&gt;only work with linux or git bash not working with powershell&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="190" y="170" width="650" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-0" value="&lt;font style=&quot;font-size: 22px&quot;&gt;docker run -p 3000:3000&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="230" y="490" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-1" value="&lt;font style=&quot;font-size: 22px&quot;&gt;-v /app/node_modules&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="490" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-2" value="&lt;font style=&quot;font-size: 22px&quot;&gt;-v $(pwd):/app&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="770" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-3" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&amp;lt;image-id&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="1050" y="490" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-4" value="Map the current working directory (pwd) to the &lt;b&gt;&#39;/app&#39; &lt;/b&gt;folder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="800" y="450" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-5" value="&lt;div&gt;Put a bookmark on the &lt;b&gt;node_modules &lt;/b&gt;folder inside the container&#39;s FS&lt;/div&gt;&lt;div&gt;(This one only need when we dont have &lt;b&gt;node_modules &lt;/b&gt;folder inside our working directory)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="490" y="580" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=7;" edge="1" parent="4Mk4iQXiwL4zJRKQcYk9-1" source="MbRKAbbVOmDxa7u2_1Qx-5" target="MbRKAbbVOmDxa7u2_1Qx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbRKAbbVOmDxa7u2_1Qx-7" value="&lt;font style=&quot;font-size: 28px&quot;&gt;docker run -it -p 3000:3000 -v /app/node_modules -v &quot;/$(pwd)&quot;:/app &lt;/font&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;&amp;lt;image-id&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4Mk4iQXiwL4zJRKQcYk9-1">
+          <mxGeometry x="230" y="660" width="1050" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ceCjgpWa7rj9VPgqNX2Y" name="09 - Volumes and live updating tests with Docker Compose">
+    <mxGraphModel dx="2585" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="pVsU0367un2kb_rBwKp1-0" />
+        <mxCell id="pVsU0367un2kb_rBwKp1-1" parent="pVsU0367un2kb_rBwKp1-0" />
+        <mxCell id="pVsU0367un2kb_rBwKp1-2" value="&lt;p style=&quot;line-height: 150% ; font-size: 34px&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 34px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;version: &#39;3&#39;&lt;br&gt;services:&lt;br&gt;&amp;nbsp; web:&lt;br&gt;&lt;font style=&quot;font-size: 34px&quot; color=&quot;#008500&quot;&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; build:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; context: .&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; dockerfile: Dockerfile.dev&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ports: &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &quot;3000:3000&quot;&lt;br&gt;&lt;font style=&quot;font-size: 34px&quot; color=&quot;#0000FF&quot;&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; volumes:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - /app/node_modules&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - .:/app&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 34px&quot; color=&quot;#FFFF00&quot;&gt;&amp;nbsp; &lt;b&gt;&lt;font style=&quot;font-size: 34px&quot; color=&quot;#FF0000&quot;&gt;tests:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; build:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; context: .&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; dockerfile: Dockerfile.dev&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; volumes:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - /app/node_modules&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; - .:/app&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; command: [&quot;npm&quot;, &quot;run&quot;, &quot;test&quot;&lt;/font&gt;&lt;font color=&quot;#FF0000&quot;&gt;]&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;font-size: 34px&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;spacingLeft=9;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="550" y="510" width="590" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="pVsU0367un2kb_rBwKp1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=7;strokeColor=#009900;" edge="1" parent="pVsU0367un2kb_rBwKp1-1" source="pVsU0367un2kb_rBwKp1-3" target="pVsU0367un2kb_rBwKp1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVsU0367un2kb_rBwKp1-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;How to force docker-compose CLI to build image from docker file with custom name.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;In here if dockerfile located in folder within the working directory we can add that folder name &lt;/font&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;&lt;span&gt;&lt;span&gt;instead &lt;/span&gt;&lt;/span&gt;of . &lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;spacingLeft=14;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="1570" y="480" width="380" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pVsU0367un2kb_rBwKp1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=7;strokeColor=#0000FF;" edge="1" parent="pVsU0367un2kb_rBwKp1-1" source="pVsU0367un2kb_rBwKp1-6" target="pVsU0367un2kb_rBwKp1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVsU0367un2kb_rBwKp1-6" value="&lt;font style=&quot;font-size: 34px&quot;&gt;Add volumes&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="1570" y="990" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QBT05CLg5P22JJPdd_Sm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.41;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=7;strokeColor=#CC0000;" edge="1" parent="pVsU0367un2kb_rBwKp1-1" source="pVsU0367un2kb_rBwKp1-8" target="pVsU0367un2kb_rBwKp1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVsU0367un2kb_rBwKp1-8" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;b&gt;3)&lt;/b&gt; Add 2nd service to docker-compose file for testing. This 2nd service totally identical to 1st one excepts the last line where default startup command &lt;b&gt;(npm run start) &lt;/b&gt;of Dockerfile.dev has override by &lt;b&gt;npm run test&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;spacingLeft=12;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="367" y="1550" width="850" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pVsU0367un2kb_rBwKp1-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 31px&quot;&gt;docker-compose.yml file&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;strokeWidth=4;align=center;fillColor=#e1d5e7;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="620" y="430" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QBT05CLg5P22JJPdd_Sm-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;b&gt;1)&lt;/b&gt; Running test with docker CLI commands (but with this way it always needed to rebuild docker when App.test.js file changes due to adding new tests or otherwise we need to set a volume in dockerfile for live updating tests)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Docker build -f dockerfile.dev&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Docker run -it &amp;lt;image-id&amp;gt; npm run test&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;To run test on already running container we can use this command without rerunning it (in this case also if we have setup volumes in docker-compose.yml file updates in App.test.js will live reflect in the container)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;b&gt;Docker exec -it &amp;lt;container-id&amp;gt; npm run test&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;spacingLeft=22;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="1290" y="1230" width="640" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="QBT05CLg5P22JJPdd_Sm-2" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;b&gt;2)&lt;/b&gt; Running test with docker-compose CLI commands in simplier way&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Docker-compose up&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Docker ps&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;get container id &lt;br&gt;&lt;/font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;Docker exec -it &amp;lt;container-id&amp;gt; npm run test&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 27px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontStyle=0;spacingLeft=14;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="1970" y="1230" width="640" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QBT05CLg5P22JJPdd_Sm-3" value="" style="strokeWidth=6;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="470" y="640" width="50" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QBT05CLg5P22JJPdd_Sm-4" value="" style="strokeWidth=6;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="470" y="1030" width="50" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QBT05CLg5P22JJPdd_Sm-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Service 1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Container&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontColor=#333333;fontStyle=1" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="250" y="810" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6QD2wbzr6DtGlZuRjRU3-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 37px&quot;&gt;Testing Methods&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="1400" y="1130" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6QD2wbzr6DtGlZuRjRU3-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Service 2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Container&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontColor=#333333;fontStyle=1" vertex="1" parent="pVsU0367un2kb_rBwKp1-1">
+          <mxGeometry x="250" y="1155" width="180" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
