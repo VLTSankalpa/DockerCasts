@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T15:38:27.518Z" agent="5.0 (Windows)" version="14.1.2" etag="HgFBZTsD7lwfoy_5cQ3y" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-26T16:21:57.389Z" agent="5.0 (Windows)" version="14.1.2" etag="mpuSwzu0tw_KPvzcPUp9" type="github" pages="7">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -219,6 +219,14 @@
         <mxCell id="-y_SHVuLbzsMmlphyi4o-7" value="&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;But process test.js is the process that should give response to test minipulations&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;stdin stdout and stderr is process oriented&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;Linux commands to check running process is &lt;b&gt;ps &lt;/b&gt;and ones we enter to container shell using &lt;b&gt;docker exec -it &amp;lt;container-id&amp;gt; sh &lt;/b&gt;also we can use &lt;b&gt;ps &lt;/b&gt;to check all the running process on the container&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
           <mxGeometry x="70" y="1800" width="470" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z9U8nwLqfC8p4asz_AAb" name="Page-7">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="UKnt6YWVCucuKEuamTCr-0" />
+        <mxCell id="UKnt6YWVCucuKEuamTCr-1" parent="UKnt6YWVCucuKEuamTCr-0" />
       </root>
     </mxGraphModel>
   </diagram>
