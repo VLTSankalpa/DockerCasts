@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T16:38:20.803Z" agent="5.0 (Windows)" version="14.1.2" etag="m_2zP4yt3PUI8tVDDsN5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-26T17:05:39.575Z" agent="5.0 (Windows)" version="14.1.2" etag="6Wj9orkS6nxgtaJqsIbW" type="github" pages="7">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -257,14 +257,30 @@
         <mxCell id="xDg9CDAlRf7F4ErIENRv-20" value="&lt;p style=&quot;line-height: 150% ; font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Web Container&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=9;fontColor=#333333;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
           <mxGeometry x="820" y="840" width="320" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="xDg9CDAlRf7F4ErIENRv-21" value="index.html" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
-          <mxGeometry x="990" y="930" width="110" height="50" as="geometry" />
+        <mxCell id="__SM28wNIP8DGEVCL_mx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC0000;strokeWidth=5;fontSize=19;fontColor=#FF0000;" edge="1" parent="UKnt6YWVCucuKEuamTCr-1" source="xDg9CDAlRf7F4ErIENRv-21" target="xDg9CDAlRf7F4ErIENRv-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="955" />
+              <mxPoint x="980" y="955" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xDg9CDAlRf7F4ErIENRv-22" value="Prod Server" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
-          <mxGeometry x="860" y="930" width="130" height="110" as="geometry" />
+        <mxCell id="xDg9CDAlRf7F4ErIENRv-21" value="index.html" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
+          <mxGeometry x="1020" y="930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xDg9CDAlRf7F4ErIENRv-22" value="&lt;div&gt;Prod Server&lt;/div&gt;&lt;div&gt;(nginx)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
+          <mxGeometry x="860" y="930" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="__SM28wNIP8DGEVCL_mx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC0000;strokeWidth=5;fontSize=19;fontColor=#FF0000;" edge="1" parent="UKnt6YWVCucuKEuamTCr-1" source="xDg9CDAlRf7F4ErIENRv-23" target="xDg9CDAlRf7F4ErIENRv-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1010" />
+              <mxPoint x="980" y="1010" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xDg9CDAlRf7F4ErIENRv-23" value="main.js" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
-          <mxGeometry x="990" y="980" width="110" height="60" as="geometry" />
+          <mxGeometry x="1020" y="980" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xDg9CDAlRf7F4ErIENRv-24" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#CC0000;strokeWidth=5;fontSize=19;fontColor=#FF0000;exitX=1.008;exitY=0.615;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="UKnt6YWVCucuKEuamTCr-1" source="xDg9CDAlRf7F4ErIENRv-19" target="xDg9CDAlRf7F4ErIENRv-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -275,11 +291,11 @@
         <mxCell id="xDg9CDAlRf7F4ErIENRv-25" value="&lt;font style=&quot;font-size: 26px&quot;&gt;Production Environment&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=9;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
           <mxGeometry x="820" y="730" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="__SM28wNIP8DGEVCL_mx-0" value="&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;But process test.js is the process that should give response to test minipulations&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;stdin stdout and stderr is process oriented&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;Linux commands to check running process is &lt;b&gt;ps &lt;/b&gt;and ones we enter to container shell using &lt;b&gt;docker exec -it &amp;lt;container-id&amp;gt; sh &lt;/b&gt;also we can use &lt;b&gt;ps &lt;/b&gt;to check all the running process on the container&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
-          <mxGeometry x="160" y="1180" width="470" height="70" as="geometry" />
+        <mxCell id="__SM28wNIP8DGEVCL_mx-0" value="Production servers (nginx) sole purpose to accpet in coming requrest and respond to them" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
+          <mxGeometry x="140" y="1080" width="470" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="__SM28wNIP8DGEVCL_mx-1" value="&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;But process test.js is the process that should give response to test minipulations&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;stdin stdout and stderr is process oriented&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;Linux commands to check running process is &lt;b&gt;ps &lt;/b&gt;and ones we enter to container shell using &lt;b&gt;docker exec -it &amp;lt;container-id&amp;gt; sh &lt;/b&gt;also we can use &lt;b&gt;ps &lt;/b&gt;to check all the running process on the container&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
-          <mxGeometry x="160" y="640" width="470" height="70" as="geometry" />
+        <mxCell id="__SM28wNIP8DGEVCL_mx-1" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Development server should have high amount of hardware resource to process and serve js files to broswer. &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;But ones we move to producation environment this falls away. Instend we run &lt;b&gt;npm run build &lt;/b&gt;to get final index.html and main.js files.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;In order to communicate this two files to user broswer we need to have producation server.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;But for this producation server we dont need lot of hardware resources since we dont need to process js and html files ones we setup producation env. All we need to serve files to user broswer&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="UKnt6YWVCucuKEuamTCr-1">
+          <mxGeometry x="146" y="660" width="470" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
