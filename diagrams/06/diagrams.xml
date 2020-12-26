@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T14:59:15.937Z" agent="5.0 (Windows)" version="14.1.2" etag="JFISBPFUYPvLQKRf2yvg" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-26T15:29:34.959Z" agent="5.0 (Windows)" version="14.1.2" etag="r2P4SSTQGmQqBB0TGZCO" type="github" pages="6">
   <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="01 - development workflow">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -145,43 +145,43 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="s4OGS4hx2X_ZftfhfBLX" name="10 - Attach">
+  <diagram id="s4OGS4hx2X_ZftfhfBLX" name="10 - Attach and shortcomings of testing">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="Vcbg8LQDgbnCekqV_lQE-0" />
         <mxCell id="Vcbg8LQDgbnCekqV_lQE-1" parent="Vcbg8LQDgbnCekqV_lQE-0" />
         <mxCell id="sS_1I7EnfOYId_QuLQ5l-0" value="&lt;p style=&quot;line-height: 150% ; font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Test Container&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=9;fontColor=#333333;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="170" y="1440" width="320" height="290" as="geometry" />
+          <mxGeometry x="150" y="1450" width="640" height="290" as="geometry" />
         </mxCell>
         <mxCell id="sS_1I7EnfOYId_QuLQ5l-1" value="&lt;p style=&quot;line-height: 150% ; font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;Web Container&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;font-size: 34px&quot; align=&quot;center&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=9;fontColor=#333333;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="640" y="1440" width="320" height="290" as="geometry" />
+          <mxGeometry x="940" y="1450" width="320" height="290" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-15" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=left;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="220" y="1590" width="220" height="110" as="geometry" />
+          <mxGeometry x="520" y="1600" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-16" value="npm run test" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="220" y="1590" width="220" height="50" as="geometry" />
+          <mxGeometry x="520" y="1600" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-17" value="stdin" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="220" y="1640" width="70" height="60" as="geometry" />
+          <mxGeometry x="520" y="1650" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-18" value="stdout" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="290" y="1640" width="70" height="60" as="geometry" />
+          <mxGeometry x="590" y="1650" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-19" value="stderr" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="360" y="1640" width="80" height="60" as="geometry" />
+          <mxGeometry x="660" y="1650" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-22" value="npm run start" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="700" y="1590" width="220" height="50" as="geometry" />
+          <mxGeometry x="1000" y="1600" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-23" value="stdin" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="700" y="1640" width="70" height="60" as="geometry" />
+          <mxGeometry x="1000" y="1650" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-24" value="stdout" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="770" y="1640" width="70" height="60" as="geometry" />
+          <mxGeometry x="1070" y="1650" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-25" value="stderr" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="840" y="1640" width="80" height="60" as="geometry" />
+          <mxGeometry x="1140" y="1650" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC0000;strokeWidth=5;fontSize=19;fontColor=#FF0000;" edge="1" parent="Vcbg8LQDgbnCekqV_lQE-1" source="r0xAm0J7ETgn1-1U95uf-26" target="r0xAm0J7ETgn1-1U95uf-17">
           <mxGeometry relative="1" as="geometry" />
@@ -190,10 +190,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r0xAm0J7ETgn1-1U95uf-26" value="Our terminal" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=19;fontColor=#FF0000;align=center;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="472" y="1871" width="120" height="60" as="geometry" />
+          <mxGeometry x="975" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r0xAm0J7ETgn1-1U95uf-29" value="docker attach &amp;lt;docker-id&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
-          <mxGeometry x="175" y="1911" width="265" height="20" as="geometry" />
+        <mxCell id="r0xAm0J7ETgn1-1U95uf-29" value="&lt;div&gt;docker attach &amp;lt;docker-id&amp;gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;using this command we only can attached to process id 1 (root) process only&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="660" y="1940" width="265" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-0" value="test.js" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="290" y="1600" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-1" value="stdin" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="290" y="1650" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-2" value="stdout" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="360" y="1650" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-3" value="stderr" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=19;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="430" y="1650" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-4" value="PID 25" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="290" y="1550" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-5" value="PID 1 (root)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;align=center;fontSize=21;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="520" y="1550" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-6" value="....." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontSize=19;fontColor=#FF0000;align=center;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="180" y="1550" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-y_SHVuLbzsMmlphyi4o-7" value="&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;But process test.js is the process that should give response to test minipulations&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;stdin stdout and stderr is process oriented&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;Linux commands to check running process is &lt;b&gt;ps&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;" vertex="1" parent="Vcbg8LQDgbnCekqV_lQE-1">
+          <mxGeometry x="127.5" y="1780" width="395" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
