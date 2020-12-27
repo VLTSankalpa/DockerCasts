@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T12:22:32.171Z" agent="5.0 (Windows)" version="14.1.2" etag="hz-aL-g1jQ7Eu8BMPYS-" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-27T12:22:57.043Z" agent="5.0 (Windows)" version="14.1.2" etag="yVpwK-d2h6ajznoqC7os" type="github" pages="4">
   <diagram id="1211e4a8-733d-f656-cf6c-203a34cabfd0" name="01 - CI/CD pipeline">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="d2ba077f-7077-01c2-0ce5-2b6b140d6d03" name="03 - git">
+  <diagram id="d2ba077f-7077-01c2-0ce5-2b6b140d6d03" name="03 - Git">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -208,7 +208,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="vyD-3hZo0qwPksECCJdx" name="Page-4">
+  <diagram id="vyD-3hZo0qwPksECCJdx" name="04 - Travis">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="l6Bzk0SoVXHNJ0oJQpDI-0" />
