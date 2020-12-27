@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T12:00:02.353Z" agent="5.0 (Windows)" version="14.1.2" etag="ocg5ao_E31zGF5MK3vAW" type="github" pages="3">
-  <diagram id="1211e4a8-733d-f656-cf6c-203a34cabfd0" name="01 - CI/CD flow">
+<mxfile host="app.diagrams.net" modified="2020-12-27T12:05:39.821Z" agent="5.0 (Windows)" version="14.1.2" etag="y3Q9cXEuTWaCRLfFP7bZ" type="github" pages="3">
+  <diagram id="1211e4a8-733d-f656-cf6c-203a34cabfd0" name="01 - CI/CD pipeline">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -55,7 +55,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="4109bb60-0287-d28d-0e2a-88b77f049a4a" name="02 - CI/CD services">
+  <diagram id="4109bb60-0287-d28d-0e2a-88b77f049a4a" name="02 - CI/CD pipeline tools">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -180,6 +180,30 @@
             <mxPoint x="964.5" y="390.33333333333337" as="sourcePoint" />
             <mxPoint x="964.5" y="414" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-48" value="Create github repo" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-49" value="" style="endArrow=classic;html=1;strokeWidth=3;fontSize=20;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="210" y="533" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-51" value="Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-52" value="Create local git repo" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="384" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-53" value="Connect local git to github remote" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="438" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-54" value="Push work to github" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="493" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="1lPtFKScEpY0K5Xdc-aU-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.75;exitY=1;entryX=0.75;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=20;" edge="1" parent="1" source="1lPtFKScEpY0K5Xdc-aU-53" target="1lPtFKScEpY0K5Xdc-aU-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
