@@ -1,16 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T18:50:54.114Z" agent="5.0 (Windows)" version="14.1.3" etag="51CX-aXOZs9PIjTgsP-X" type="github" pages="18">
-  <diagram id="54fc6e91-dc46-0006-33d2-0b6f42e0bc61" name="04 - remind">
-    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Don&#39;t forget to terminate the Elastic Beanstalk app!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="620" y="180" width="420" height="210" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="93ca1341-e49f-e3c5-b386-9a1cc1311372" name="05 - issues">
+<mxfile host="app.diagrams.net" modified="2020-12-28T18:58:22.275Z" agent="5.0 (Windows)" version="14.1.3" etag="Y5Oe9D90EFRUf-8_P1XB" type="github" pages="17">
+  <diagram id="93ca1341-e49f-e3c5-b386-9a1cc1311372" name="05 - Single Container Deployment Issues">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -116,7 +105,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="251265c4-1342-70f2-24f1-a15969e57a1b" name="08 - mock">
+  <diagram id="251265c4-1342-70f2-24f1-a15969e57a1b" name="08 - APP web UI">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -170,71 +159,71 @@
     </mxGraphModel>
   </diagram>
   <diagram name="09 - other" id="14dd3292-0138-9fc9-73a6-5a146a486358">
-    <mxGraphModel dx="1398" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="310" y="110" width="620" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="2">
+        <mxCell id="3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="2" vertex="1">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="2">
+        <mxCell id="4" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="2" vertex="1">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Fib Calculator" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="2">
+        <mxCell id="5" value="Fib Calculator" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="2" vertex="1">
           <mxGeometry y="110" width="620" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="7" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="2">
+        <mxCell id="6" value="7" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="2" vertex="1">
           <mxGeometry x="310" y="185" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Submit" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="2">
+        <mxCell id="7" value="Submit" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="2" vertex="1">
           <mxGeometry x="420" y="185" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Enter your index:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="2">
+        <mxCell id="8" value="Enter your index:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="2" vertex="1">
           <mxGeometry x="130" y="190" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Indicies I have seen:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="2">
+        <mxCell id="9" value="Indicies I have seen:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="2" vertex="1">
           <mxGeometry x="205" y="240" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Calculated Values:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="2">
+        <mxCell id="10" value="Calculated Values:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="2" vertex="1">
           <mxGeometry x="205" y="320" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="For index 10 I calculated 89" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="2">
+        <mxCell id="11" value="For index 10 I calculated 89" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="2" vertex="1">
           <mxGeometry x="170" y="367" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="For index 5 I calculated 8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="2">
+        <mxCell id="12" value="For index 5 I calculated 8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="2" vertex="1">
           <mxGeometry x="170" y="397" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="10, 5, 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="2">
+        <mxCell id="13" value="10, 5, 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="2" vertex="1">
           <mxGeometry x="180" y="270" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" edge="1" parent="2" source="6" target="6">
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" parent="2" source="6" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="For index 7 I calculated 21" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="2">
+        <mxCell id="15" value="For index 7 I calculated 21" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="2" vertex="1">
           <mxGeometry x="170" y="345" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.75;exitY=1;entryX=0.75;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" edge="1" parent="2" source="13" target="13">
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.75;exitY=1;entryX=0.75;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" parent="2" source="13" target="13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="17" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;fillColor=#ffffff;strokeColor=#666666;mainText=,;recursiveResize=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="950" y="110" width="620" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="17">
+        <mxCell id="18" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="17" vertex="1">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="17">
+        <mxCell id="19" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="17" vertex="1">
           <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Fib Calculator" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" vertex="1" parent="17">
+        <mxCell id="20" value="Fib Calculator" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="17" vertex="1">
           <mxGeometry y="110" width="620" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="Im some other page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="17">
+        <mxCell id="23" value="Im some other page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="17" vertex="1">
           <mxGeometry x="225" y="190" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" edge="1" parent="17">
+        <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" parent="17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="215" as="sourcePoint" />
             <mxPoint x="360" y="215" as="targetPoint" />
@@ -243,8 +232,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="339b960a-f68f-f5a7-eaef-f196dfac6a0c" name="07 - app">
-    <mxGraphModel dx="1118" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+  <diagram id="339b960a-f68f-f5a7-eaef-f196dfac6a0c" name="07 - app backend architecture">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
