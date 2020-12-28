@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T18:58:22.275Z" agent="5.0 (Windows)" version="14.1.3" etag="Y5Oe9D90EFRUf-8_P1XB" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2020-12-28T20:09:52.508Z" agent="5.0 (Windows)" version="14.1.3" etag="VXKHbgt-X6xB2Da0BEPO" type="github" pages="17">
   <diagram id="93ca1341-e49f-e3c5-b386-9a1cc1311372" name="05 - Single Container Deployment Issues">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -293,11 +293,29 @@
         <mxCell id="16" value="Worker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="1200" y="259" width="150" height="84" as="geometry" />
         </mxCell>
+        <mxCell id="NKnli5jkscUzfO_u_i43-20" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;routing incoming traffic&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="695" y="480" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NKnli5jkscUzfO_u_i43-21" value="&lt;div&gt;if clinet trying to access web UI redirect to react server&lt;/div&gt;&lt;div&gt;If clinet try to access some backend information redirect to express server&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="550" y="535" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NKnli5jkscUzfO_u_i43-22" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGoWF-QYz0GG83J4oxIA-20" value="In memory dat store (cache)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="400" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGoWF-QYz0GG83J4oxIA-21" value="databse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="517" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TGoWF-QYz0GG83J4oxIA-22" value="web server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="990" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="10 - redis" id="64a60919-5447-65ff-3a68-9b141820febf">
-    <mxGraphModel dx="1118" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+  <diagram name="10 - source of data show in web site" id="64a60919-5447-65ff-3a68-9b141820febf">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,11 +367,14 @@
         <mxCell id="16" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="980" y="348" width="150" height="84" as="geometry" />
         </mxCell>
+        <mxCell id="sZ2LfhW6I0wWmI47gm1h-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Source of data show in web site&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="370" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="b2166a49-05ca-0dec-abb6-9b23968dccc9" name="09 - flow">
-    <mxGraphModel dx="932" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
