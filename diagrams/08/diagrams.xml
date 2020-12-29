@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T20:09:52.508Z" agent="5.0 (Windows)" version="14.1.3" etag="VXKHbgt-X6xB2Da0BEPO" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2020-12-29T03:45:23.414Z" agent="5.0 (Windows)" etag="puVjOZdt-iiE7hcQOBkW" version="14.1.3" type="github" pages="17">
   <diagram id="93ca1341-e49f-e3c5-b386-9a1cc1311372" name="05 - Single Container Deployment Issues">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -87,19 +87,19 @@
         <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=16;" parent="1" source="27" target="27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZC1oCTdKpGXYTw5c9spe-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;5+8&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="ZC1oCTdKpGXYTw5c9spe-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;5+8&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="685" y="240" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZC1oCTdKpGXYTw5c9spe-34" value="1+2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ZC1oCTdKpGXYTw5c9spe-34" value="1+2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="510" y="235" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZC1oCTdKpGXYTw5c9spe-35" value="2+3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ZC1oCTdKpGXYTw5c9spe-35" value="2+3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="570" y="235" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZC1oCTdKpGXYTw5c9spe-36" value="3+5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ZC1oCTdKpGXYTw5c9spe-36" value="3+5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="630" y="235" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZC1oCTdKpGXYTw5c9spe-37" value="1+1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ZC1oCTdKpGXYTw5c9spe-37" value="1+1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="450" y="235" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -293,22 +293,22 @@
         <mxCell id="16" value="Worker" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;" parent="1" vertex="1">
           <mxGeometry x="1200" y="259" width="150" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="NKnli5jkscUzfO_u_i43-20" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;routing incoming traffic&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="NKnli5jkscUzfO_u_i43-20" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;routing incoming traffic&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="695" y="480" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NKnli5jkscUzfO_u_i43-21" value="&lt;div&gt;if clinet trying to access web UI redirect to react server&lt;/div&gt;&lt;div&gt;If clinet try to access some backend information redirect to express server&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NKnli5jkscUzfO_u_i43-21" value="&lt;div&gt;if clinet trying to access web UI redirect to react server&lt;/div&gt;&lt;div&gt;If clinet try to access some backend information redirect to express server&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="550" y="535" width="570" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NKnli5jkscUzfO_u_i43-22" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="NKnli5jkscUzfO_u_i43-22" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1025" y="460" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TGoWF-QYz0GG83J4oxIA-20" value="In memory dat store (cache)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="TGoWF-QYz0GG83J4oxIA-20" value="In memory dat store (cache)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1370" y="400" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TGoWF-QYz0GG83J4oxIA-21" value="databse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="TGoWF-QYz0GG83J4oxIA-21" value="databse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1370" y="517" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TGoWF-QYz0GG83J4oxIA-22" value="web server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="TGoWF-QYz0GG83J4oxIA-22" value="web server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontStyle=1;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="990" y="220" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -367,13 +367,13 @@
         <mxCell id="16" value="Postgres" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=20;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="980" y="348" width="150" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="sZ2LfhW6I0wWmI47gm1h-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Source of data show in web site&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="sZ2LfhW6I0wWmI47gm1h-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Source of data show in web site&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="450" y="560" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="b2166a49-05ca-0dec-abb6-9b23968dccc9" name="09 - flow">
+  <diagram id="b2166a49-05ca-0dec-abb6-9b23968dccc9" name="09 - overall flow within app">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -423,50 +423,56 @@
         <mxCell id="16" value="Watches redis for new indicies.&amp;nbsp; Pulls each new indice, calculates new value then puts it back into redis" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="490" y="398" width="205" height="58" as="geometry" />
         </mxCell>
+        <mxCell id="3HaFm0cfBjKFIgAxx0rZ-16" value="API layer" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="175" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="3HaFm0cfBjKFIgAxx0rZ-17" value="Web UI" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="980" y="82" width="65" height="58" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="4f360c61-83eb-8bdf-836d-5e96df9c31fd" name="10 - js">
-    <mxGraphModel dx="932" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="If you don&#39;t care about Javascript stuff then you can skip the next few videos and download the completed app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="2" value="If you don&#39;t care about Javascript stuff then you can skip the next few videos and download the completed app" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="580" y="220" width="530" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="We&#39;re going to do just the JS side of the app right now&lt;font style=&quot;font-size: 44px&quot;&gt; &lt;br&gt;(no docker!)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="3" value="We&#39;re going to do just the JS side of the app right now&lt;font style=&quot;font-size: 44px&quot;&gt; &lt;br&gt;(no docker!)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="580" y="60" width="530" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="20abb9cf-79db-436f-5530-0e5cb513d6e6" name="11 - reconcile">
-    <mxGraphModel dx="1398" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" edge="1" parent="1" source="2" target="4">
+        <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" parent="1" source="2" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="If you didn&#39;t write all the source code out in the last couple sections" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;" vertex="1" parent="1">
+        <mxCell id="2" value="If you didn&#39;t write all the source code out in the last couple sections" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;" parent="1" vertex="1">
           <mxGeometry x="610" y="215" width="370" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" edge="1" parent="1" source="3" target="6">
+        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" parent="1" source="3" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="If you wrote all the code with me" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;" vertex="1" parent="1">
+        <mxCell id="3" value="If you wrote all the code with me" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;" parent="1" vertex="1">
           <mxGeometry x="1050" y="215" width="370" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Stay around, make sure you got checkpoint.zip from the last lecture" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="4" value="Stay around, make sure you got checkpoint.zip from the last lecture" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="638.5" y="455" width="313" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontSize=32;" parent="1" source="6" target="7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Continue on!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="6" value="Continue on!" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1078.5" y="435" width="313" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Or, download the checkpoint.zip and use my copy of code (to avoid typos)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="7" value="Or, download the checkpoint.zip and use my copy of code (to avoid typos)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=32;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1074" y="565" width="322" height="160" as="geometry" />
         </mxCell>
       </root>
